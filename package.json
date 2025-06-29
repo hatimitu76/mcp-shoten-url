@@ -1,0 +1,29 @@
+{
+  "name": "@hatimitu__hat/mcp-shoten-url",
+  "version": "1.0.0",
+  "description": "An MCP server for creating shortened URLs using x.gd",
+  "bin": "./build/index.js",
+  "type": "module",
+  "module": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "README.ja.md"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outdir build --target node && chmod 755 ./build/index.js"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.14.3",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2"
+  }
+}
