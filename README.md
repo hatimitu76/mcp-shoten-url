@@ -1,6 +1,6 @@
 # mcp-shoten-url
 
-[日本語バージョン](./README.ja.md)
+[日本語バージョン](https://github.com/hatimitu76/mcp-shoten-url/blob/master/README.ja.md)
 
 This is an MCP server for creating shortened URLs using x.gd.
 
